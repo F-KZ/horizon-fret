@@ -2,32 +2,33 @@ import React from 'react';
 
 import exports from "/images/export.png"
 import contenaires from "/images/carton.png"
-import pc from "/images/ordi.png"
-
+import pc from "/images/entreposage.png"
 
 const skillsData = [
-    {
-      name: "Import / Export de Marchandises",
-      img: exports,
-      link: "#",
-      description: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié.",
-      aosDelay: "0",
-    },
-    {
-      name: "Déménagement International",
-      img: contenaires,
-      link: "#",
-      description: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié.",
-      aosDelay: "500",
-    },
-    {
-      name: "Formalités Douanières",
-     img: pc,
-      link: "#",
-      description: "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié.",
-      aosDelay: "1000",
-    },
-  ];
+  {
+    name: "Import / Export de Marchandises",
+    img: exports,
+    link: "#",
+    description: "<p>Horizon Transport offre des solutions complètes d’importation et d’exportation, adaptées aux besoins des particuliers et des entreprises opérant sur le marché international.</p><p>Nous proposons une gamme de services spécialisés pour assurer le transport sûr et efficace de vos marchandises à travers le monde, que ce soit par voie maritime, aérienne ou terrestre.</p><p>Nos services d'import/export s’adressent aux entreprises souhaitant développer leur présence internationale, aux importateurs/exportateurs de biens industriels ou commerciaux, ainsi qu'aux particuliers souhaitant transporter des biens personnels d’un pays à un autre.</p>",
+    aosDelay: "0",
+  },
+  {
+    name: "Déménagement International",
+    img: contenaires,
+    link: "#",
+    description: "<p>Horizon Transport est une société spécialisée dans le transport international et le déménagement par fret maritime.</p><p>Nous offrons des solutions sur mesure pour le transport de biens personnels et professionnels à l'échelle mondiale, avec une expertise particulière dans les déménagements longue distance et transcontinentaux.</p><p>Grâce à notre réseau mondial et notre expertise logistique, nous assurons un service fiable, efficace et économique pour nos clients.</p>",
+    aosDelay: "500",
+  },
+  {
+    name: "Entreposage",
+    img: pc,
+    link: "#",
+    description: "<p>En complément de nos services de déménagement international, Horizon Transport propose des solutions d'entreposage sécurisées et flexibles pour répondre à vos besoins de stockage, qu'ils soient de courte ou de longue durée.</p><p>Que vous soyez en transition lors d’un déménagement, en attente de votre nouvelle résidence ou que vous ayez simplement besoin d’espace supplémentaire pour stocker vos biens, nous mettons à disposition des installations de qualité, adaptées à tous les types de biens.</p>",
+    aosDelay: "1000",
+  },
+];
+
+
   const Services = () => {
     return (
       <>
@@ -55,7 +56,10 @@ const skillsData = [
                    src={skill.img}
                   />
                   <h1 className="text-1xl font-bold text-customBlue">{skill.name}</h1>
-                  <p className='px-4'>{skill.description}</p>
+                  <p
+                  className="px-4 flex flex-col gap-4 text-left"
+                  dangerouslySetInnerHTML={{ __html: skill.description }}
+                />
                   
                 </div>
               ))}
