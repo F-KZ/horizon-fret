@@ -13,10 +13,10 @@ const Header = () => {
 
         {/* Texte superposé à l'image */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
-          <h1 data-aos="zoom-in" className="text-4xl font-semibold text-white sm:text-5xl md:text-6xl bg-customBlue p-3 rounded-lg ">
+          <h1 data-aos="zoom-in" className="text-xl font-semibold text-white sm:text-5xl md:text-6xl bg-customBlue p-3 rounded-lg ">
             Horizon Transport
           </h1>
-          <p data-aos="zoom-in" data-aos-delay="1000" className="my-4 text-xl text-white bg-customBlue p-3 rounded-lg">
+          <p data-aos="zoom-in" data-aos-delay="1000" className="my-4  text-lg md:text-xl text-white bg-customBlue p-3 rounded-lg">
             Fret Maritime
           </p>
         </div>
