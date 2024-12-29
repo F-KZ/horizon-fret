@@ -32,7 +32,7 @@ export default function Swipe() {
           slot="container-start"
           className="parallax-bg"
           style={{
-    backgroundImage: 'url("/vite-deploy-demo/images/boat3.png")',
+    backgroundImage: 'url("/images/boat3.png")',
   }}
           data-swiper-parallax="-23%"
         ></div>
