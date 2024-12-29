@@ -57,7 +57,7 @@ const skillsData = [
                   />
                   <h1 className="text-1xl font-bold text-customBlue">{skill.name}</h1>
                   <p
-                  className="px-4 flex flex-col gap-4 text-left"
+                  className="px-4 flex flex-col gap-4 text-left font-extralight"
                   dangerouslySetInnerHTML={{ __html: skill.description }}
                 />
                   

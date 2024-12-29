@@ -29,7 +29,7 @@ const FooterLinks = [
   ];
   const Footer = () => {
     return (
-      <div className="bg-gray-100 dark:bg-dark mt-14 rounded-t-3xl">
+      <div className="bg-customBlue text-white mt-14 rounded-t-3xl">
         <section className="container">
           <div className=" flex flex-row sm:justify-between justify-center flex-wrap py-5">
             {/* company Details */}
@@ -44,19 +44,19 @@ const FooterLinks = [
                 Informations Légales
               </h1>
               <a href="/#">
-              <p className="text-sm">
+              <p className=" font-extralight text-sm">
                 Mentions Légales{" "}
               </p>
               </a>
               <br />
               <a href="/#">
-              <p className="text-sm" >
+              <p className=" font-extralight text-sm" >
                 Politique de confidentialité et des cookies
               </p>
               </a>
               <br/>
               <a href="/#">
-              <p className="text-sm">
+              <p className=" font-extralight text-sm">
                 Conditions Générales de vente
               </p>
               </a>
@@ -68,15 +68,15 @@ const FooterLinks = [
               <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
                 Horizon Transports
               </h1>
-              <p className="text-sm">
+              <p className="text-sm font-extralight">
                 Société de transports, service et formation .{" "}
               </p>
               <br />
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 font-extralight">
                 <FaLocationArrow />
                 <p>Rouen</p>
               </div>
-              <div className="flex items-center gap-3 mt-3">
+              <div className="flex items-center gap-3 mt-3 font-extralight">
                 <FaMobileAlt />
                 <a href="tel:+33 7 69 98 98 85">+33 7 69 98 98 85</a>
                 <br/>

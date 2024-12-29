@@ -6,6 +6,10 @@ import Navbar from './components/Navbar'
 import Services from './components/Services'
 import Hero from './components/Hero'
 import Footer from './components/Footer'
+import Swipe from "./components/Swiper";
+import Devis from "./components/Devis";
+import Devis2 from "./components/Devis2";
+import ContactForm from "./components/SubmitMail";
 
 function App() {
   React.useEffect(() => {
@@ -25,9 +29,13 @@ function App() {
     <div className="pt-[62px] md:pt-16">
     <Header/>
     </div>
+    <div>
     <Hero/>
     <Services/>
+    <Swipe/>
+    <Devis2/>
      <Footer/>
+     </div>
     </>
   )
 }
