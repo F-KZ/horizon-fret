@@ -17,7 +17,7 @@ const Header = () => {
             Horizon Transports
           </h1>
           <p data-aos="zoom-in" data-aos-delay="1000" className="my-4  text-lg md:text-xl text-white bg-customBlue p-3 rounded-lg">
-          transport de marchandises
+          Maritime Aérien Terrestre
           </p>
         </div>
       </div>

@@ -16,7 +16,7 @@ const skillsData = [
     name: "Déménagement International",
     img: contenaires,
     link: "#",
-    description: "<p>Horizon Transports est une société spécialisée dans le transport international et le déménagement par fret maritime.</p><p>Nous offrons des solutions sur mesure pour le transport de biens personnels et professionnels à l'échelle mondiale, avec une expertise particulière dans les déménagements longue distance et transcontinentaux.</p><p>Grâce à notre réseau mondial et notre expertise logistique, nous assurons un service fiable, efficace et économique pour nos clients.</p>",
+    description: "<p>Horizon Transports est une société spécialisée dans le transport international et le déménagement.</p><p>Nous offrons des solutions sur mesure pour le transport de biens personnels et professionnels à l'échelle mondiale, avec une expertise particulière dans les déménagements longue distance et transcontinentaux.</p><p>Grâce à notre réseau mondial et nos partenaires notre expertise logistique, nous assurons un service fiable, efficace et économique pour nos clients.</p>",
     aosDelay: "500",
   },
   {

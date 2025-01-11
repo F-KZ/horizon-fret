@@ -17,7 +17,7 @@ const Hero = () => {
                     Qu’est-ce que le fret  ?
                 </h1>
                 <p className="text-base font-extralight lg:text-lg text-justify leading-relaxed">
-                    Le fret  se définit par l’ensemble des étapes et des moyens qui encadrent le transport de marchandises. Par exemple, la logistique déployée, l’acheminement ou les moyens pour parvenir jusqu’à la destination de livraison. Son rôle notable influe directement sur les échanges commerciaux à l’intérieur d’un territoire ou sur le plan international. L’impact sur l’économie mondiale est donc réel.
+                    Le fret se définit par l’ensemble des étapes et des moyens qui encadrent le transport de marchandises. Par exemple, la logistique déployée, l’acheminement ou les moyens pour parvenir jusqu’à la destination finale. Son rôle notable influe directement sur les échanges commerciaux à l’intérieur d’un territoire ou sur le plan international. L’impact sur l’économie mondiale est donc réel.
                 </p>
             </div>
             </div>
