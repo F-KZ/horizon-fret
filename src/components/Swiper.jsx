@@ -45,7 +45,7 @@ export default function Swipe() {
             Ecologique
           </div>
           <div className="text" data-swiper-parallax="-100">
-            <p>
+            <p className='text-justify'>
             Le premier avantage du transport maritime n’est autre que le respect de l’environnement. 
              Un transport de marchandises par voie maritime émet 13 fois moins de CO2. 
             Ce paramètre est à considérer si l’on souhaite réduire son impact sur l’environnement et participer à sa protection.
@@ -60,7 +60,7 @@ export default function Swipe() {
             Economique et Pratique
           </div>
           <div className="text" data-swiper-parallax="-100">
-            <p>
+            <p className='text-justify'>
             Parmi les avantages conséquents du transport de marchandises par voie maritime, 
             il est important de spécifier qu’il est particulièrement économique et permet une large diversité de marchandises . 
             En effet, les tarifs pour faire voyager des marchandises par le fret maritime sont beaucoup plus abordables.
@@ -75,7 +75,7 @@ export default function Swipe() {
           Fiable et Sécurisé
           </div>
           <div className="text" data-swiper-parallax="-100">
-            <p>
+            <p className='text-justify'>
             Le fret aérien est une méthode de transport de marchandises par avion. C'est une solution rapide, souvent utilisée pour des produits à forte valeur ajoutée, des marchandises sensibles, ou des envois urgents.
             </p>
           </div>
